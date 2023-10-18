@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background-image: url(image/IMG_2406.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(104, 101, 101);
+}
+
+.top h4 {
+    margin-left: 20px;
+}
+
+.top p {
+    margin-right: 20px;
+
+}
+
+.top p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* navigtion  */
+nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: #dbdada;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+}
+
+nav .logo img {
+    width: 30%;
+    text-align: center;
+}
+
+nav .menu {
+    width: 55%;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav .menu ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav .menu ul a:hover {
+    color: rgb(13, 49, 211);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.btn button {
+    border-radius: 100px;
+    color: rgb(9, 25, 39);
+    background-color: rgb(221, 222, 231);
+    width: 130px;
+    height: 50px;
+    box-shadow: 1px 3px 2px gray;
+    font-size: 20px;
+}
+
+.btn button:hover {
+    background-color: rgb(12, 6, 6);
+    color: rgb(247, 246, 246);
+}
+
+.contect {
+    width: 100%;
+    height: 50vh;
+    margin-top: 175px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: #181010;
+
+}
+
+.contect button {
+    border-radius: 30px;
+    background-color: rgb(241, 234, 234);
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn1 button:hover {
+    background-color: rgb(10, 10, 10);
+    color: rgb(240, 228, 228);
+}
+
+/* introduction  */
+.intro {
+
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(190, 107, 29);
+    font-weight: bold;
+}
+
+.course-offer {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.course1 img {
+    width: 250px;
+    height: 200px;
+    margin: 40px;
+
+}
+
+.course2 img {
+    width: 250px;
+    height: 200px;
+    margin: 40px;
+}
+
+.course3 img {
+    width: 220px;
+    height: 200px;
+    margin: 40px;
+}
+/* footer  */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    background-color: black;
+    align-items: center center;
+    justify-content: space-between;
+}
+
+.foot1 {
+    width: 250px;
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.foot1 img {
+    width: 200px;
+}
+
+.foot2 {
+    width: 250px;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+
+}
+
+.foot2 p a {
+    color: #ffff;
+
+}
+
+.foot3 {
+    width: 250px;
+    color: aliceblue;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+    margin-right: 40px;
+}
+
+.foot3 ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(250, 243, 243);
+}
+
+.copyright {
+    text-align: center;
+    background-color: #b8b3b3;
+    color: rgb(0, 0, 0);
+}
